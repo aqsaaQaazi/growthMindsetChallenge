@@ -86,3 +86,5 @@ if uploaded_files:
            st.download_button(label=f"Download {conversion_type} {file.name}", data=buffer, file_name=file_name, mime=mime_type)
                     
 st.success("**your files have been procesed successfully **")
+
+st.balloons("Made with ❤️ by Aqsaa Qaazi")
